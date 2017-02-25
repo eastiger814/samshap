@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    tools:context="com.eastiger.samshap.play.PlayGameActivity"
+    tools:showIn="@layout/activity_play_game">
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutFullscreenContentControls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="20dip"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/buttonShowTitleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/dummy_button" />
+
+        <GridView
+            android:id="@+id/gridViewContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/buttonShowTitleBar"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth" />
+
+
+    </RelativeLayout>
+</FrameLayout>
+

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SamShap</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- Main Activity -->
+    <string name="start">Start</string>
+    <string name="option">Option</string>
+
+    <!-- Select Game -->
+    <string name="select_game">Select Game</string>
+
+</resources>
