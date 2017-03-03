@@ -10,5 +10,7 @@
 
     <!-- Select Game -->
     <string name="select_game">Select Game</string>
+    <string name="ok">OK</string>
+    <string name="complete_game">Complete Game</string>
 
 </resources>
